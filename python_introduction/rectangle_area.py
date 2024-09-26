@@ -1,4 +1,4 @@
-length  = 10
-width = 5
-Area = length * width 
+Length  = 10
+Width = 5
+Area = Length * Width 
 print ( format(Area))
