@@ -1,5 +1,5 @@
 hours = 2
-second = 0.00027778
+second =hours * 3600
 minute = 60 * 60
 hours = 2 *minute
 print( ' 2 hours(s) is ' ,hours ,'seconds')
