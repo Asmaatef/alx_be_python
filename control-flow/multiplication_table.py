@@ -1,4 +1,3 @@
-
 x = int(input("Enter the number for the multiplication table: "))
 y = int(input("Enter the number of rows for the multiplication table: "))
 
