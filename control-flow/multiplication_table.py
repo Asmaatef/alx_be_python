@@ -3,9 +3,9 @@ y = int(input("Enter the number of rows for the multiplication table: "))
 for i in range(1, y + 1):
     result = x * i
     print(f"{x} * {i} = {result}")
-    if i >= 20:
-        print("The number of rows has been limited to 20.")
+    if i >= 10:
+        print("The number of rows has been limited to 10.")
         break
 else:
-    if y > 20:
-        print("The number of rows has been limited to 20.")
+    if y > 10:
+        print("The number of rows has been limited to 10.")
