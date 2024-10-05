@@ -8,11 +8,10 @@ def safe_divide(numerator, denominator):
    except ValueError:
            return "Error: Please enter numeric values only."
 def safe_divide(numerator, denominator):
-    """Performs division with error handling for zero division and non-numeric inputs."""
     try:
         numerator = float(numerator)
         denominator = float(denominator)
-        result = numerator / denominator
+        result = numerator/denominator
         return f"The result of the division is {result}"
     
     except ZeroDivisionError:
