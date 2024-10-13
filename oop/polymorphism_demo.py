@@ -1,5 +1,5 @@
 import math
-class  Shape:
+class  Shape :
     def area(self):
         raise  NotImplementedError("derived classes need to override this method.") 
 class Rectangle(Shape):
